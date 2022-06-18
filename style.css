@@ -1,0 +1,133 @@
+#master-div{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#left{
+    z-index: 10;
+}
+#image-leaf{
+    height:120vh;
+    width: 35vw;
+    z-index: 0;
+}
+
+#transparent {
+    width: 80vw;
+    height: 20vh;
+    position: absolute; 
+    margin-top: 20vh;  
+    background-color:rgba(0,0,0, 0.6);    
+    z-index: 5;
+}
+
+#odinlogo {
+    margin-top: 21vh;
+    margin-left: 13.5vw;
+    position:absolute;
+    width: 13vh;
+    z-index: 6;
+}
+
+#right{
+    background-size: cover;
+    background-color: #f9fafb;
+    z-index: 20;
+    /* padding-left: 5vw;
+    padding-right: 10vw; */
+}
+
+#text-div {
+    display: block;
+    min-width: 600px;
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    
+}
+
+#form-container{
+    background-color: white;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    box-shadow: 0px 4px 3px #cecece;
+
+}
+
+#form-div{
+    display: inline-block;
+    padding-top: 1.2rem;
+    padding-bottom: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+
+    
+}
+
+#login-right {
+    margin-left: 3rem;
+    float:right;
+}
+#login-left {
+    float:left;
+}
+
+#form-tag{
+    display: inline;
+}
+
+#text-div {
+    margin-top: 20vh;
+    font-weight: 600;
+}
+
+
+#button-div{
+    padding-left: 5vw;
+}
+
+a {
+    font-weight: 600;
+    color:#596D48;
+    text-decoration: none;
+}
+
+button{
+    display:inline-block;
+    background-color: #596D48;
+    color:white;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .7rem 2.4rem;
+    border:none;
+    border-radius: .45rem;
+}
+
+#lets{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top:1.2rem;
+}
+
+label{
+    font-size: .7rem;
+    font-weight: 580;
+}
+
+input {
+    border:1px solid #E5E7EB;
+}
+
+input:focus{
+    
+    border:2px solid steelblue;
+    
+}
+
+#message {
+    font-weight: 550;
+    font-size: .9rem;
+    color: red;
+}
